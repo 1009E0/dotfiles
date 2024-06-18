@@ -13,6 +13,7 @@ opt.number = true                       -- 输出行号
 opt.relativenumber = true               -- 相对行号
 opt.shiftround = true                   -- Round indent
 opt.shiftwidth = 2                      -- 缩进大小
+opt.showmode = false                    -- 显示当前模式
 opt.signcolumn = "yes"                  -- Always show the signcolumn, otherwise it would shift the text each time
 opt.smartcase = true                    -- Don't ignore case with capitals
 opt.smartindent = true                  -- 自动插入缩进
@@ -21,7 +22,7 @@ opt.splitbelow = true                   -- 将新窗口放在当前窗口下面
 opt.splitright = true                   -- 将新窗口放在当前窗口右面
 opt.tabstop = 2                         -- Number of spaces tabs count for
 opt.termguicolors = true                -- 真色支持
-opt.wrap = false                        -- 关闭自动折行
+opt.wrap = true                        -- 关闭自动折行
 
 vim.g.encoding = "UTF-8"
 vim.o.fileencoding = "UTF-8"
